@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "titulo": "Erro no login",
+    "descricao": "Usuário não consegue acessar o sistema",
+    "status": "aberto",
+    "prioridade": "alta"
+  },
+  {
+    "id": 2,
+    "titulo": "Sistema lento",
+    "descricao": "Sistema demora para carregar relatórios",
+    "status": "em andamento",
+    "prioridade": "media"
+  },
+  {
+    "id": 3,
+    "titulo": "Bug na tela de cadastro",
+    "descricao": "Campos não salvam corretamente",
+    "status": "fechado",
+    "prioridade": "baixa"
+  }
+]
