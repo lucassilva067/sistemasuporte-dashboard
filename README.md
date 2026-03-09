@@ -1,33 +1,37 @@
 # Suporte Dashboard - Teste Técnico Frontend (React)
 
-Projeto desenvolvido como **teste técnico Frontend**, com foco em experiência do usuário, organização de código e tratamento de estados.
+Projeto desenvolvido como **teste técnico Frontend**, implementando um painel de chamados com funcionalidades de listagem, filtros, busca e gerenciamento de status.
 
 ---
 
 ## 🎯 Objetivo
-Avaliar habilidades em **React**, desenvolvimento de interfaces, fluxo de dados, estados de tela e boas práticas de código.  
-> Uso de IA foi permitido para auxiliar ideias, mas todas as decisões finais e implementação foram manuais.
+Demonstrar habilidades em **React**, incluindo:  
+- Criação de componentes funcionais e uso de hooks (`useState`)  
+- Tratamento de estados de interface (vazio, filtros, busca)  
+- Organização de lógica de negócio e UI  
+
+> IA foi utilizada para auxiliar ideias, mas todas as decisões finais e implementações foram feitas manualmente.
 
 ---
 
-## 💻 Funcionalidades implementadas
+## 💻 Funcionalidades
 
 - **Listagem de chamados** com id, título, cliente, status, prioridade e data de criação  
-- **Filtros por status** (Aberto, Em andamento, Resolvido)  
-- **Busca por texto** (título ou cliente)  
-- **Criação de chamados** com formulário validando campos obrigatórios (título, cliente, descrição, prioridade)  
-- **Atualização de status** diretamente na interface  
-- **Estados de interface**: carregando, vazio e erro com mensagens amigáveis  
-- **Responsividade**: funcional em desktop e mobile  
+- **Filtro por status**: Todos, Aberto, Em andamento, Fechado  
+- **Busca por texto** no título e descrição  
+- **Contagem de chamados** por status (Abertos, Em andamento, Fechados)  
+- **Ações em cada chamado**: Avançar status, Arquivar, Excluir  
+- **Responsividade mínima** para telas desktop e mobile  
+- **Estados de interface**: Nenhum chamado encontrado
 
 ---
 
 ## 🛠 Tecnologias utilizadas
 
 - **Frontend:** React (Hooks e componentes funcionais)  
-- **Estilos:** CSS puro / SCSS  
-- **Mock/local:** JSON em memória para simular dados  
-- **Ferramentas auxiliares:** VS Code, Git, GitHub  
+- **Estilos:** Inline CSS  
+- **Mock/local:** JSON em memória (não há backend)  
+- **Ferramentas:** VS Code, Git, GitHub  
 
 ---
 
