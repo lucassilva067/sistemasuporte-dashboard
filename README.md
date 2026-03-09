@@ -1,16 +1,39 @@
-# React + Vite
+# Suporte Dashboard - Teste Técnico Frontend (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto desenvolvido como **teste técnico Frontend**, com foco em experiência do usuário, organização de código e tratamento de estados.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 Objetivo
+Avaliar habilidades em **React**, desenvolvimento de interfaces, fluxo de dados, estados de tela e boas práticas de código.  
+> Uso de IA foi permitido para auxiliar ideias, mas todas as decisões finais e implementação foram manuais.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 💻 Funcionalidades implementadas
 
-## Expanding the ESLint configuration
+- **Listagem de chamados** com id, título, cliente, status, prioridade e data de criação  
+- **Filtros por status** (Aberto, Em andamento, Resolvido)  
+- **Busca por texto** (título ou cliente)  
+- **Criação de chamados** com formulário validando campos obrigatórios (título, cliente, descrição, prioridade)  
+- **Atualização de status** diretamente na interface  
+- **Estados de interface**: carregando, vazio e erro com mensagens amigáveis  
+- **Responsividade**: funcional em desktop e mobile  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tecnologias utilizadas
+
+- **Frontend:** React (Hooks e componentes funcionais)  
+- **Estilos:** CSS puro / SCSS  
+- **Mock/local:** JSON em memória para simular dados  
+- **Ferramentas auxiliares:** VS Code, Git, GitHub  
+
+---
+
+## 🚀 Como rodar o projeto
+
+1. Clone o repositório:  
+```bash
+git clone https://github.com/lucassilva067/suporte-dashboard.git
+cd suporte-dashboard
